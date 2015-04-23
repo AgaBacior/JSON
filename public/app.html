@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pl">	
+	<head>
+		<title>Blog</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="css/normalize.css"/>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:700&subset=latin,latin-ext"/>
+		<link rel="stylesheet" href="css/main.css"/>
+	</head>
+	<body>
+		<main>
+			<header>
+				<h1>Napisz post</h1>
+			</header>
+			<section id='sectionPost'>
+
+
+			</section>
+			<aside>
+				<form method="POST" action="/post" id="submitPost" >
+			        <label for="author">Autor:</label>
+			        <input type="text" name="author" id="author" required/>
+			        <label for="title">Tytul:</label>
+			        <input type="text" name="title" id="title" required/>
+			        <label for="content">Tresc:</label>
+			        <textarea cols="100px" name="content" id="content" required></textarea>
+        			<input type="submit" value="Wyslij"/>    
+				</form>
+			</aside>
+		</main>
+	  		<script src="js/jquery-1.11.2.js"></script>
+ 			<script src="js/main.js"></script>
+ 			<!-- <script src="js/main.js"></script> -->
+ 	</body>
+</html>

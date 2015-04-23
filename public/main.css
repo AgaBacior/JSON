@@ -1,0 +1,75 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+* { 
+	margin:0;
+	padding:0;
+	border: 0 none;
+	position: relative;
+}
+html {
+	background: #e0e0e0;
+}
+main {
+	width: 1140px;
+	margin: auto;
+}
+section,
+aside {
+	float:left;
+}
+section{
+	width: 60%;
+	margin-right: 4%;
+	background-color: red;
+}
+aside{
+	width: 36%;
+	background-color: yellow;
+}
+
+article {
+	border: 2px solid rgba(55,55,255,.8);
+	float: left;
+	width: 30%;
+	height: 5vw;
+	margin: 0 5% 2vw 0;
+	overflow: hidden;
+}
+article:nth-child(3n) {
+	margin-right: 0;
+}
+article:nth-child(3n+1):last-child {
+	width: 100%;
+	margin-right: 0;
+}
+article:nth-child(3n + 1):nth-last-child(2) {
+   width: 47.5%;
+}
+
+article:nth-child(3n + 1):nth-last-child(2) + article {
+   width: 47.5%;
+   margin-right: 0;
+}
+
+form {
+	margin: 20px 0;
+}
+input,
+textarea {
+	background-color: rgba(0,0,0,.2);
+	width: 200px;
+}
+div {
+	margin: 5px 0;
+}
+label {
+	display: inline-block;
+	width: 60px;
+}
+button {
+	padding: 10px;
+	margin-left: 215px;
+
+}

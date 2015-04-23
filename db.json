@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Document Object Model",
+      "content": "Bla bla bla.",
+      "author": "Artur Delura"
+    },
+    {
+      "id": 2,
+      "title": "REST",
+      "content": "Bla bla bla.",
+      "author": "Gosia Ksionek"
+    },
+    {
+      "author": "bioiaosaiu",
+      "title": "zjkzgduyzegd",
+      "content": "zhjfceuzydrz",
+      "id": 3
+    },
+    {
+      "author": "111saztydzay",
+      "title": "chjzfuzlfydz",
+      "content": "fzurdzè§rdèz",
+      "id": 4
+    },
+    {
+      "author": "cyxtrdxty",
+      "title": "kjigigi",
+      "content": "iugiugi",
+      "id": 5
+    },
+    {
+      "author": "cyxtrdxty",
+      "title": "kjigigi",
+      "content": "iugiugi",
+      "id": 6
+    },
+    {
+      "author": "cyxtrdxty",
+      "title": "kjigigi",
+      "content": "iugiugi",
+      "id": 7
+    },
+    {
+      "author": "cyxtrdxty",
+      "title": "kjigigi",
+      "content": "iugiugi",
+      "id": 8
+    },
+    {
+      "author": "cyxtrdxty",
+      "title": "kjigigi",
+      "content": "iugiugi",
+      "id": 9
+    }
+  ],
+  "favicon.ico": []
+}

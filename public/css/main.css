@@ -1,0 +1,85 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+* { 
+	margin:0;
+	padding:0;
+	border: 0 none;
+	position: relative;
+}
+html {
+	background: #eee;
+}
+main {
+	width: 1140px;
+	margin: auto;
+}
+section,
+aside {
+	float:left;
+}
+section{
+	width: 60%;
+	margin-right: 4%;
+}
+aside{
+	width: 36%;
+}
+article {
+	border: 2px solid rgba(120,120,120,.2);
+	float: left;
+	width: 30%;
+	height: 8vw;
+	margin: 0 5% 2vw 0;
+	padding: 1rem;
+	overflow: hidden;
+}
+article:nth-child(3n) {
+	margin-right: 0;
+}
+article:nth-child(3n+1):last-child {
+	width: 100%;
+	margin-right: 0;
+}
+article:nth-child(3n + 1):nth-last-child(2) {
+   width: 47.5%;
+}
+
+article:nth-child(3n + 1):nth-last-child(2) + article {
+   width: 47.5%;
+   margin-right: 0;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto Slab', serif;
+}
+form {
+	margin: 20px 0;
+}
+input,
+textarea {
+	background-color: rgba(0,0,0,.2);
+	width: 60%;
+	margin: 5px 0;
+}
+input {
+	height: 40px;
+}
+input[type="submit"] {
+	margin: 0 0 0 40%;
+	background-color: rgb(150,200,130);
+}
+
+label {
+	float: left;
+	width: 40%;
+}
